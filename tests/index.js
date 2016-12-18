@@ -23,7 +23,7 @@ describe('Calculator', () => {
       const input = '5432.00, 1 person, drugs';
       let instance = new Calculator(input);
       instance.finally();
-      instance.flatMarkup.should.equal(271.60);
+      instance.flatMarkup.should.equal(5703.6);
     });
   });
 
@@ -32,7 +32,7 @@ describe('Calculator', () => {
       const input = '5432.00, 1 person, drugs';
       let instance = new Calculator(input);
       instance.finally();
-      instance.personMarkup.should.equal(3.26);
+      instance.personMarkup.should.equal(68.44);
     });
   });
 
