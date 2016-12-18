@@ -1,0 +1,25 @@
+{
+  "name": "nulogy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/*.js"
+  },
+  "repository": {
+    "url": "git+https://github.com/anonrig/nulogy.git",
+    "type": "git"
+  },
+  "author": "Yagiz Nizipli <yagiznizipli@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anonrig/nulogy/issues"
+  },
+  "homepage": "https://github.com/anonrig/nulogy#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
+}
